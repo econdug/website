@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 481.9 340.2" style="enable-background:new 0 0 481.9 340.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#A6C8E6;}
+	.st1{fill:#E14A4A;}
+	.st2{fill:none;}
+	.st3{fill:#232323;}
+	.st4{font-family:'Arial-BoldMT';}
+	.st5{font-size:27px;}
+	.st6{font-family:'ArialMT';}
+	.st7{font-size:14px;}
+</style>
+<g id="blue_power_point">
+	<rect x="60.7" y="47.4" class="st0" width="360.4" height="245.4"/>
+</g>
+<g id="middle_square">
+	<rect x="182.7" y="130.7" class="st1" width="105.1" height="139.5"/>
+</g>
+<g id="triangles">
+	<g>
+		<rect x="79.4" y="176.3" class="st1" width="70.8" height="54.7"/>
+		<polygon class="st1" points="150.2,176.3 79.4,176.3 79.4,130.7 		"/>
+		<polygon class="st1" points="150.2,231.1 79.4,231.1 79.4,270.2 		"/>
+	</g>
+	<g>
+		<rect x="320.3" y="176.3" class="st1" width="70.8" height="54.7"/>
+		<polygon class="st1" points="320.3,176.3 391.1,176.3 391.1,130.7 		"/>
+		<polygon class="st1" points="320.3,231.1 391.1,231.1 391.1,270.2 		"/>
+	</g>
+	<path class="st1" d="M320.3,176.3"/>
+</g>
+<g id="Text">
+	<rect x="83.8" y="73.7" class="st2" width="314.2" height="96.3"/>
+	<text transform="matrix(1 0 0 1 101.4491 93.0608)" class="st3 st4 st5">FACULTY LECTURES</text>
+	<rect x="182.7" y="181" class="st2" width="105.1" height="92.1"/>
+	<text transform="matrix(1 0 0 1 190.5254 191.0481)" class="st3 st6 st7">Environmental</text>
+	<text transform="matrix(1 0 0 1 201.0354 207.8481)" class="st3 st6 st7">Economics</text>
+	<rect x="320.3" y="176.3" class="st2" width="70.8" height="54.7"/>
+	<text transform="matrix(1 0 0 1 335.4707 186.3584)" class="st3 st6 st7">Health</text>
+	<text transform="matrix(1 0 0 1 321.4707 203.1584)" class="st3 st6 st7">Economics</text>
+	<rect x="79.4" y="176.3" class="st2" width="70.8" height="54.7"/>
+	<text transform="matrix(1 0 0 1 96.9334 186.3584)" class="st3 st6 st7">Labor</text>
+	<text transform="matrix(1 0 0 1 80.6034 203.1584)" class="st3 st6 st7">Economics</text>
+</g>
+</svg>

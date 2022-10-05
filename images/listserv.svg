@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 481.9 340.2" style="enable-background:new 0 0 481.9 340.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{display:none;}
+	.st2{display:inline;}
+	.st3{fill:url(#SVGID_2_);}
+	.st4{fill:#B78241;}
+	.st5{fill:#FFFFFF;}
+	.st6{fill:#F7EF75;}
+	.st7{fill:#F7F29C;}
+	.st8{fill:none;}
+	.st9{opacity:0.8;fill:#232323;enable-background:new    ;}
+	.st10{font-family:'ArialMT';}
+	.st11{font-size:8px;}
+	.st12{fill:#FFFFFF;stroke:#D3D3D3;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#D3D3D3;stroke-miterlimit:10;}
+	.st14{font-size:5px;}
+	.st15{fill:#FDB841;}
+	.st16{fill:#FCB01A;}
+	.st17{fill:#E29C26;}
+	.st18{fill:#FDB83F;}
+	.st19{fill:#E9E7E7;}
+	.st20{fill:#BF999C;}
+	.st21{fill:#BB7E85;}
+	.st22{fill:#FBCFD3;}
+	.st23{fill:#E87F8E;}
+	.st24{fill:#E7475F;}
+	.st25{fill:#EF5B70;}
+	.st26{fill:#DC2427;}
+	.st27{fill:#232323;}
+	.st28{fill:#F0CC7E;}
+	.st29{fill:#E5AC4F;}
+	.st30{fill:#AE732A;}
+	.st31{font-family:'Arial-BoldMT';}
+	.st32{font-size:27px;}
+	.st33{fill:#F2C57E;}
+	.st34{fill:#D1A565;}
+</style>
+<g id="Layer_2">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="170.08" x2="481.89" y2="170.08">
+		<stop  offset="0" style="stop-color:#A6C8E7"/>
+		<stop  offset="1" style="stop-color:#5ACEF2"/>
+	</linearGradient>
+	<rect class="st0" width="481.9" height="340.2"/>
+</g>
+<g id="Layer_1">
+	<g id="red_gradient_layer" class="st1">
+		<g class="st2">
+			
+				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="0" y1="168.395" x2="481.89" y2="168.395" gradientTransform="matrix(1 0 0 1 0 1.685)">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="0.6802" style="stop-color:#F15F5E"/>
+			</linearGradient>
+			<rect y="0" class="st3" width="481.9" height="340.2"/>
+		</g>
+	</g>
+	<g id="brown_bottom">
+		<path class="st4" d="M302.4,306.5h-123c-8.2,0-14.8-6.6-14.8-14.8V135.1c0-8.2,6.6-14.8,14.8-14.8h122.9c8.2,0,14.8,6.6,14.8,14.8
+			v156.7C317.2,299.9,310.6,306.5,302.4,306.5z"/>
+	</g>
+	<g id="white_top">
+		<rect x="186.8" y="142.4" class="st5" width="108.2" height="148.9"/>
+	</g>
+	<g id="red_submit_button">
+		<path class="st6" d="M255.7,280h-29.6c-3.3,0-6-2.7-6-6l0,0c0-3.3,2.7-6,6-6h29.6c3.3,0,6,2.7,6,6l0,0
+			C261.7,277.4,259,280,255.7,280z"/>
+	</g>
+	<g id="light_red_on_top">
+		<path class="st7" d="M225.5,280l32.1-11.7c0,0,4.6,1.2,4.1,6.2s-5.3,5.5-5.3,5.5H225.5z"/>
+	</g>
+	<g id="text_for_submit">
+		<rect x="225.6" y="270.7" class="st8" width="30.5" height="10.9"/>
+		<text transform="matrix(1 0 0 1 229.1294 276.4016)" class="st9 st10 st11">S</text>
+		<text transform="matrix(1 0 0 1 233.0694 276.4016)" class="st9 st10 st11">ubmit</text>
+		<rect x="193.4" y="173.9" class="st12" width="59.4" height="10.2"/>
+		<rect x="193.4" y="200.4" class="st13" width="59.4" height="10.2"/>
+		<rect x="193.4" y="226.9" class="st13" width="59.4" height="10.2"/>
+	</g>
+	<g id="real_text">
+		<rect x="171.3" y="177.5" class="st8" width="59.4" height="10.2"/>
+		<text transform="matrix(1 0 0 1 194.3671 181.0448)" class="st9 st10 st14">Name</text>
+		<rect x="171.3" y="204.1" class="st8" width="59.4" height="10.2"/>
+		<text transform="matrix(1 0 0 1 194.7851 207.7009)" class="st9 st10 st14">Email</text>
+		<rect x="194.3" y="230.3" class="st8" width="59.4" height="10.2"/>
+		<text transform="matrix(1 0 0 1 194.299 233.9)" class="st9 st10 st14">Class Year</text>
+	</g>
+	<g id="Layer_3">
+		<g>
+			<g>
+				
+					<rect x="223.9" y="216.3" transform="matrix(0.7615 -0.6482 0.6482 0.7615 -84.0635 206.3686)" class="st15" width="29" height="2.3"/>
+				
+					<rect x="225.4" y="218" transform="matrix(0.7615 -0.6482 0.6482 0.7615 -84.8342 207.7468)" class="st16" width="29" height="2.3"/>
+				
+					<rect x="226.8" y="219.7" transform="matrix(0.7615 -0.6482 0.6482 0.7615 -85.6092 209.1214)" class="st17" width="29" height="2.3"/>
+			</g>
+			<path class="st18" d="M226.6,225.9c0,0-0.8,1.7-0.3,2.3c0.4,0.5,1.8-0.5,1.8-0.5L226.6,225.9z"/>
+			<path class="st16" d="M229.6,229.4c0,0-1.5,0.8-1.9,0.3c-0.4-0.6,0.4-2,0.4-2L229.6,229.4z"/>
+			<path class="st17" d="M231,231.2c0,0-2,0.1-2.3-0.3s0.8-1.4,0.8-1.4L231,231.2z"/>
+			<polygon class="st19" points="248.6,207.2 248.7,207.1 249.7,206.3 254.1,211.6 253.1,212.4 			"/>
+			<polygon class="st19" points="252.2,204.5 252.2,204.4 253.4,203.6 257.6,208.9 256.7,209.7 			"/>
+			<polygon class="st20" points="254.1,211.6 256.7,209.7 252.7,209.9 			"/>
+			<polygon class="st21" points="255.2,208 252.7,209.9 256.7,209.7 			"/>
+			<polygon class="st22" points="252.7,209.9 255.2,208 251.2,208.2 			"/>
+			<polygon class="st23" points="253.8,206.3 251.2,208.2 255.2,208 			"/>
+			<polygon class="st24" points="251.2,208.2 253.8,206.3 249.7,206.3 			"/>
+			<polygon class="st25" points="252.2,204.4 249.7,206.3 253.8,206.3 			"/>
+			<path class="st26" d="M253.4,203.6c0,0,4-1.7,5.4,0.1c1.4,1.8-1.1,5.1-1.1,5.1L253.4,203.6z"/>
+			<path class="st27" d="M226.6,225.9l-3.5,7.9l7.9-2.7c0.1-0.1-2,0.1-2.2-0.3c-0.2-0.4,0.7-1.4,0.7-1.4s-1.5,0.7-1.9,0.4
+				c-0.3-0.3,0.1-1.6,0.4-2.1c-0.5,0.4-1.5,0.9-1.8,0.5C226,227.9,226.1,227.3,226.6,225.9z"/>
+			<path class="st28" d="M226.6,225.9l-2.6,5.9c0.1-0.2,1.2-0.8,1.1-0.2c0,0.2,3-3.9,3-3.9c0,0-1.6,1.1-1.9,0.4
+				C225.9,227.4,226.7,225.9,226.6,225.9z"/>
+			<path class="st29" d="M228.1,227.7c0,0-3.6,4.5-3.2,4.7c0.4,0.1,4.7-2.9,4.7-2.9c0,0-1.5,0.7-1.9,0.4
+				C227.4,229.5,227.9,228,228.1,227.7z"/>
+			<path class="st30" d="M225.7,231.9c0,0,0.7-0.2,0.8,0.1c0.1,0.3,0.1,0.6,0.1,0.6l4.5-1.5c0-0.1-2.3,0.1-2.3-0.4
+				c0-0.5,0.8-1.4,0.8-1.4L225.7,231.9z"/>
+		</g>
+	</g>
+	<g id="Layer_10">
+	</g>
+	<g id="text">
+		<text transform="matrix(1 0 0 1 60.9164 73.7748)" class="st27 st31 st32">Join the ECON Dug Listserv</text>
+		<g>
+			<path class="st33" d="M240.9,156.3h-39.1v-13.1c0,0,0.4-7.6,6.6-7.6c6.3,0,12.9,0,12.9,0s10.3-1.8,8.3-11.9
+				c-2-10.1,10.6-11.6,11.2-11.6L240.9,156.3L240.9,156.3z"/>
+			<path class="st34" d="M240.9,156.3h39.1v-13.1c0,0-0.4-7.6-6.6-7.6s-13,0-13,0s-10.3-1.8-8.3-11.9c2-10.1-10.6-11.6-11.2-11.6
+				V156.3z"/>
+		</g>
+	</g>
+</g>
+</svg>
