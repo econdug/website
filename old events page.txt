@@ -1,0 +1,777 @@
+<div class="grid_about_events">
+    <div class="preview_events">
+
+        <!-- February 11 2021-->
+
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/academic_support/a_feb_11_2021.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Economics Student Social! </b> <br>
+                    <i> February 11, 2021 </i> <br> <br>
+                    Trouble finding people to share the roller-coaster experience of econ courses at Zoom
+                    University with? Trying to hop on study calls to get homework done? Join the Econ DUG’s
+                    Student Social on Thursday, February 11th from 7-8 p.m. EST and find your study buddies to
+                    pset with in course-specific breakout rooms! Three attendees will be randomly selected to
+                    win a $10 Amazon gift card. We look forward to seeing you there!
+
+                </p>
+            </div>
+        </div>
+
+        <!-- January 30 2021-->
+
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/networking/n_jan_30_2021.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Diversity in Private Equity Panel</b> <br>
+                    <i> January 30, 2021 </i> <br> <br>
+                    The Econ DUG is partnering up with Brown Entrepreneurship Program’s Diversity & Inclusion
+                    Team to put on a Private Equity Panel on Saturday 1/30 at 2 pm EST. We are bringing together
+                    a group of incredible panelists who will talk about their experience in the Private Equity
+                    field. Join us for this hour-long panel and open Q&A session with audience members.
+
+                </p>
+            </div>
+        </div>
+
+        <!-- November 18 2020-->
+
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/networking/_n_nov_18_2020.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> BCC x Econ DUG : Consulting vs Finance Panel </b> <br>
+                    <i> November 18, 2020 </i> <br> <br>
+                    Brown Consulting Club and Economics DUG are proud to showcase our undergraduate and alumni
+                    panelists for a comprehensive conversation on the consulting and finance industries, giving
+                    you the opportunity to learn firsthand what it's like entering these fields. Join us for a
+                    chance to gain insight into their worlds, especially if you're trying to figure out which
+                    one is best for you!
+
+                </p>
+            </div>
+        </div>
+
+
+        <!-- November 12 2020-->
+
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/academic_support/a_nov_12_2020.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Pre-Registration Open Hours </b> <br>
+                    <i> November 12, 2020 </i> <br> <br>
+                    Wondering which economics class to take next? What the difference is between regular Econ,
+                    APMA-Econ, CS-Econ, and Math-Econ? If you have these questions and more, join the Econ DUG’s
+                    Pre-Registration Open Hours on Thursday, November 12th from 7-8:30 p.m. EST! You’ll have the
+                    opportunity to chat with Econ DUG members and Economics Peer Advisors, ask questions, and
+                    get advice for the spring semester and beyond. We look forward to seeing you there!
+
+                </p>
+            </div>
+        </div>
+
+        <!-- October 29 2020-->
+
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/academic_support/a_oct_29_2020.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> FREAKonomics Kahoot Night </b> <br>
+                    <i> October 29, 2020 </i> <br> <br>
+                    Interested in showcasing your economic intuition? Join the Economics DUG’s spook-tacular
+                    kickoff event for the 2020-2021 school year! Stop by the FREAKonomics Kahoot Night to meet
+                    the Economics DUG E-Board, team up with other students, and have a spooky time. There will
+                    be PRIZES for the winners, so bring your friends and get ready for some perfect competition!
+
+
+                </p>
+            </div>
+        </div>
+
+        <!-- October 20 2020-->
+
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/student_panels/s_oct_20_2020.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Intro to Finance Panel </b> <br>
+                    <i> October 20, 2020 </i> <br> <br>
+                    So what exactly is finance, and what prepares you for the industry? Do you know what you
+                    need to do to get a finance internship?
+                    Join the Econ DUG and upperclassmen working in investment banking, sales & trading, and
+                    wealth management to learn the answers to these questions and more. We will begin with an
+                    overview of the finance recruiting timeline, include some best tips for the process, then
+                    open it up to a Q&A with seniors at Morgan Stanley, JP Morgan, Barclays, and Evercore.
+
+
+                </p>
+            </div>
+        </div>
+
+        <!-- September 18 2020-->
+
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/academic_support/a_sep_18_2020.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Breaking into Harvard Business School (Econ DUG x WIB)</b> <br>
+                    <i> September 18, 2020 </i> <br> <br>
+                    Do you plan on applying to (Harvard) Business School? Want to know how to make your B-School
+                    application stand out? Join WIB and the Econ DUG at 12pm ET on Saturday, September 19th for
+                    a conversation with Brown alumni who are MBA candidates at Harvard Business School! This
+                    event is open to ALL Brown students!
+
+
+                </p>
+            </div>
+        </div>
+
+        <!-- August 7 2020-->
+
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/academic_support/a_aug_7_2020.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Pre-Reg Open Hours </b> <br>
+                    <i> August 7, 2020 </i> <br> <br>
+                    Questions about Fall 2020 courses in the Department of Economics or about the Economics
+                    concentrations? Join the Econ Dug’s pre-reg Zoom call on Friday, August 7th at 6pm EDT!
+                    You will have the opportunity to chat with Econ DUG members, who will be acting as
+                    panelists, ask them questions, and get advice for the upcoming school year. We're looking
+                    forward to seeing you there!
+
+
+                </p>
+            </div>
+        </div>
+
+        <!-- February 26 2020-->
+
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/networking/n_feb_26_2020.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Finance 101 </b> <br>
+                    <i> February 26, 2020 </i> <br> <br>
+                    So what exactly is finance, and what prepares you for the industry? Do you know what you
+                    need to do to get a finance internship? What are Super Days? And what do you actually do
+                    when you have a job in finance?
+                    Join the Econ DUG and learn the answers to these questions and more, as well as for an
+                    overview of what working in the finance industry actually entails. Come and learn more about
+                    how you can become involved in finance both in and outside of Brown!
+
+
+                </p>
+            </div>
+        </div>
+
+        <!-- February 25 2020-->
+
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/networking/n_feb_25_2020.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Consulting 101 </b> <br>
+                    <i> February 25, 2020 </i> <br> <br>
+                    You've heard it since you started at Brown - "consulting." But actually is consulting? What
+                    do consultants do? How do you network for it? And how do you get a summer internship doing
+                    it?
+                    Join the Econ DUG to learn the answers to these questions and more! We will be providing an
+                    overview on the basics of consulting and how to become involved with it while at Brown.
+
+
+                </p>
+            </div>
+        </div>
+
+        <!-- February 19 2020-->
+
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/academic_support/a_feb_19_2020.JPG" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> How to Declare your Concentration </b> <br>
+                    <i> February 19, 2020 </i> <br> <br>
+                    The Econ DUG hosted an event for intending concentrators on how to declare their economics
+                    concentration, in either regular Econ, CS-Econ, APMA-Econ, Business-Econ, or any of the
+                    other branches within the concentration. Free insomnia cookies were provided.
+
+
+                </p>
+            </div>
+        </div>
+
+        <!-- December 05, 2019 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/networking/n_dec_04_2019.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Finance Summer Recruiting 101 (Econ DUG x Career Lab) </b> <br>
+                    <i> December 05, 2019 </i> <br> <br>
+                    In collaboration with the CareerLAB, the Econ DUG hosted a Finance Summer Recruiting 101
+                    event to help students interested in pursuing an internship in the financial services
+                    industry. Attendees listened to a short presentation and participated in a discussion about
+                    summer analyst recruiting timelines and the application process. Introductory industry
+                    terminology was covered, as well as CareerLAB resources and FAQs in preparation for the 2020
+                    recruiting season.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- November 21, 2019 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/faculty_lecture/f_nov_21_2019.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Faculty Lunch Lecture with Professor Potterack</b> <br>
+                    <i>November 21, 2019 </i> <br> <br>
+                    The Econ DUG hosted another lunch lecture in the series, featuring Professor Alex Poterack.
+                    He previewed his Spring 2020 class, Environmental Economics and Policy, and discussed how
+                    the intersection of economics and environmental science can solve some of the world’s most
+                    pressing problems. The event was catered by Flatbread.
+                </p>
+            </div>
+        </div>
+
+        <!-- November 13, 2019 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/networking/n_nov_13_2019.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Coffee Chats </b> <br>
+                    <i>November 13, 2019 </i> <br> <br>
+                    The Econ DUG hosted Coffee Chats where participants were paired with an upperclassman that
+                    had experience in the financial or consulting world. Participants spoke one-on-one with
+                    their chosen juniors or seniors and had the ability to ask them any questions they wished in
+                    order to learn more about the process.
+                </p>
+            </div>
+        </div>
+
+        <!-- November 10, 2019 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/networking/n_nov_10_2019.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Intro to Consulting (Econ DUG x Career Lab) </b> <br>
+                    <i>November 10, 2019 </i> <br> <br>
+                    In collaboration with the CareerLAB, the EconDUG hosted an Intro to Consulting event that
+                    provided details on what consulting actually is, who does it, and why. Attendees listened to
+                    a brief presentation and participated in a discussion afterwards.
+                </p>
+            </div>
+        </div>
+
+        <!-- October 30, 2019 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/academic_support/a_oct_30_2019.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Pre-Registration Open Hours </b> <br>
+                    <i>October 30, 2019 </i> <br> <br>
+                    In collaboration with the Peer Advisors, the Econ DUG hosted its Spring 2020
+                    Pre-Registration Open Hours Event. Attendees came to ask Econ DUG members and peer advisors
+                    questions about the various economics concentrations and which one was right for them, which
+                    classes they sign up for, and how to get involved in research or internships. Pizza and
+                    Halloween candy was provided.
+                </p>
+            </div>
+        </div>
+
+        <!-- October 22, 2019 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/faculty_lecture/f_oct_22_2019.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Faculty Lunch Lecture with Professor Gibbs</b> <br>
+                    <i>October 22, 2019 </i> <br> <br>
+                    The Econ DUG presented another lecture lunch in the series, featuring Professor Brad Gibbs.
+                    He provided a preview of his class, Corporate Finance, and welcomed questions about the
+                    course the industry. Catered by Flatbread.
+                </p>
+            </div>
+        </div>
+
+        <!-- October 03, 2019 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/student_panels/s_oct_03_2019.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Econ DUG Kickoff Event</b> <br>
+                    <i>October 3, 2019 </i> <br> <br>
+                    The Econ DUG hosted the 2019-20 academic year Kickoff & Panel, answering questions about the
+                    DUG and its plans for the upcoming year. Attendees listened to a presentation and were
+                    encouraged to ask questions during the discussion time. The event featured a panel of
+                    economics concentrators who had conducted research or tutor/TA’d varying economics courses,
+                    who shared their experiences and answered questions. Insomnia Cookies were provided.
+                </p>
+            </div>
+        </div>
+
+        <!-- April 23, 2019 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/faculty_lecture/f_apr_23_2019.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Faculty Lunch Lecture with Professor Weil</b> <br>
+                    <i>April 23, 2019 </i> <br> <br>
+                    The Econ DUG hosted their final faculty lunch lecture of the 2018-19 year, featuring
+                    Professor David Weil. He delivered a lecture titled, “Robots, Prosperity, and Inequality:
+                    The View from Dystopia (and Utopia),” and touched upon how the empirical determinants of
+                    income differences between countries, the accumulation of physical capital, international
+                    technology transfer, and population growth each effect various aspects of economic growth.
+                    Catering was provided.
+                </p>
+            </div>
+        </div>
+
+        <!-- April 14, 2019 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/academic_support/april_14.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Pre-Registration Open Hours</b> <br>
+                    <i>April 14, 2019 </i> <br> <br>
+                    In collaboration with the Economic Department Peer Advisors and Meiklejohns, the Econ DUG
+                    hosted their Fall 2019 Pre-Registration Open Hours. Together they answered questions and
+                    provided advice about pre-registration and concentrations. Attendees learned more about the
+                    Econ DUG and the various economics concentrations. Pizza was provided.
+                </p>
+            </div>
+        </div>
+
+        <!-- March 08, 2019 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/faculty_lecture/f_mar_08_2019.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Faculty Lunch Lecture with President Christina Paxson</b> <br>
+                    <i>March 8, 2019 </i> <br> <br>
+                    The Econ DUG kicked off its first faculty lunch lecture of 2019 with President Christina
+                    Paxson. A select group of 20 individuals were invited to listen to Paxson speak about her
+                    career experiences and ask questions regarding her research in an intimate setting. The
+                    event was catered by Panera Bread.
+                </p>
+            </div>
+        </div>
+
+        <!-- February 25, 2019 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/networking/n_feb_25_2019.JPG" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Student Recruiting (Finance) Broken Down</b> <br>
+                    <i>Febrary 25, 2019 </i> <br> <br>
+                    In collaboration with the CareerLAB, the Econ DUG hosted a break down of the financial
+                    services processes with an emphasis on navigating spring recruiting.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- December 08, 2018 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/faculty_lecture/f_dec_04_2018.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Faculty Lunch Lecture with Professor Anna Aizer </b> <br>
+                    <i>December 04, 2018</i> <br> <br>
+                    The Econ DUG hosted its first faculty lunch lecture of the year featuring the chair of
+                    Brown's Department of Economics, Ms. Anna Aizer. Professor Aizer, a labor and health
+                    economist who specializes in child health, domestic violence, and poverty, gave an hour-long
+                    lecture about her work on the role of money in the lives of teenage mothers' children and
+                    the intergenerational transmission of poverty. Over 45 people attended and enjoyed lunch
+                    from Kabob and Curry while listening to Professor Aizer present her studies.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- November 7, 2018 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/academic_support/a_nov_07_2018.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b>Pre-Registration Open Hours</b> <br>
+                    <i>November 07, 2018 </i> <br> <br>
+                    A week before pre-registration for spring semester classes, the Econ DUG hosted open hours
+                    for students to drop by and get any questions answered. DUG leaders, upperclassmen
+                    concentrators, and peer advisors all helped facilitate conversations and give advice while
+                    enjoying pizza.
+
+                </p>
+            </div>
+        </div>
+
+        <!-- November 6, 2018 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/student_panels/s_nov_06_2018.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Career Navigation Panel for Economics Concentrators</b> <br>
+                    <i>November 06, 2018 </i> <br> <br>
+                    The Econ DUG hosted a career navigation panel featuring four upperclassmen who spoke about
+                    their internship experiences. Students enjoyed pastries catered by the Blue Room while
+                    learning about career advancement in the finance, consulting, research, and nonprofit
+                    sectors.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- April 24, 2018 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/faculty_lecture/f_april_24_2018.JPG" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Faculty Lunch: Professor Pascal Michaillat</b> <br>
+                    <i>April 24, 2018 </i> <br> <br>
+                    The Econ DUG presented another faculty lunch lecture in the series, featuring Professor
+                    Pascal Michaillat. He taught ECON 1210: Intermediate Macroeconomics in Fall 2018, and has
+                    published research focused on unemployment in the American Economic Review in 2012, the
+                    American Economic Journal in 2014, and the Quarterly Journal of Economics in 2015. Catering
+                    was provided.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- April 03, 2018 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/networking/n_april_03_2018.JPG" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Economics Career Panel</b> <br>
+                    <i>April 03, 2018 </i> <br> <br>
+                    The Econ DUG hosted a Career Panel featuring three panelists who discussed possible career
+                    paths for economics concentrators. The panelists included Director Scott Wolf ‘75 of Grow
+                    Smart RI, Professor Bobby Pakzad Hurson of the Brown Economics Department, and Senior
+                    Economic Advisor Dan Jennings of the Rhode Island Commerce Corporation.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- March 13, 2018 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/student_panels/s_march_13_2018.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Economics Concentration Panel</b> <br>
+                    <i>March 13, 2018 </i> <br> <br>
+                    The Econ DUG hosted an Economics Concentration Panel to answer questions economics
+                    department-related questions. Some of the topics that attendees were most curious about were
+                    on honors thesis, the professional track, and double and joint concentrations. Guest
+                    speakers included Concentration Advisor Kenneth Chay, Economics Peer Advisor Uka Battulga,
+                    double-concentrator Saanya Jain, thesis-writer Gillian Lee and professional-track-student
+                    Minoshka Narayan. Catered by Flatbread.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- December 07, 2017 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/networking/n_december_07_2017.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> A Beautiful Mind: Econ DUG Movie and Dinner</b> <br>
+                    <i>December 7, 2017 </i> <br> <br>
+                    In collaboration with Professor Pedro Dal Bo, the Econ DUG hosted a viewing of A Beautiful
+                    Mind. This movie tells of the tragic and incredible life of John Nash, the famous economist
+                    who helped to pioneer the field of game theory and uncovered insights into the factors that
+                    govern chance and decision-making inside the complex systems of everyday life. Pizza was
+                    provided.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- November 28, 2017 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/faculty_lecture/f_nov_28_2017.JPG" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Faculty Lunch: Professor Kenneth Chay</b> <br>
+                    <i>November 28, 2017 </i> <br> <br>
+                    The Econ DUG presented another faculty lunch lecture in the series, featuring Professor
+                    Kenneth Chay. Professor Chay is an empirical economist who has done important research in
+                    the areas of labor, health, and the environment. Attendees learned more about the nature of
+                    his studies, focusing on some of his most-cited published works analyzing the effects of the
+                    1970 Clean Air Act on infant mortality, as well as the Civil Rights legislation on the
+                    convergence of black/white infant mortality in Mississippi. Catering was provided.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- November 16, 2017 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/academic_support/a_nov_16_2017.JPG" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> EconDUG: Master's and PhD panel</b> <br>
+                    <i>November 16, 2017 </i> <br> <br>
+                    The Econ DUG hosted a Master’s and PhD panel for all interested economics students. Current
+                    Brown Masters and PhD students participated in the panel and answered questions. Attendees
+                    learned more about the decision to apply to the programs and what it was like to be a
+                    graduate student first hand. Catering was provided.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- September 27, 2017 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/student_panels/s_sep_27_2017.JPG" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Talk on Gap Year Experiences!</b> <br>
+                    <i>September 27, 2017 </i> <br> <br>
+                    Alongside alumnus Samanee Mahbub, the Econ DUG hosted an event discussing Samanee’s gap year
+                    and entrepreneurship experience. Attendees learned how to grapple with questions about their
+                    future from Samanee’s experience, hearing how she worked in five different firms across
+                    three cities and what eventually led her to create her own company and pursue
+                    entrepreneurship. Samanee Mahbub is the founder of Conscious Career, a startup that seeks to
+                    help young professionals launch fulfilling and financially stable careers. She counts
+                    working at a fitness company, a VR technology start-up, and Morgan Stanley among her work
+                    experiences. Catering was provided.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- May 03, 2017 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/student_panels/s_may_03_2017.JPG" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Senior thesis presentations!</b> <br>
+                    <i>May 3, 2017 </i> <br> <br>
+                    Alongside the department, the Econ DUG presented the economics senior concentrators’ thesis
+                    research. Attendees heard from eight seniors, with focuses ranging from the
+                    contextualization of risk aversion, to geolocated IP addresses as a source of economic data,
+                    to gender differences in treatment choice and adherence among many others. Lunch was
+                    provided.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- April 25, 2017 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/student_panels/s_april_25_2017.JPG" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Economics Degree Day</b> <br>
+                    <i>April 25, 2017 </i> <br> <br>
+                    The Econ DUG hosted a panel aimed at answering the most pertinent questions that prospective
+                    economics concentrators have. The event was targeted at first years and sophomores, but all
+                    prospective economics concentrators were welcomed. The panelists consisted of Professor
+                    David Weil (previous Head of the Economics Department), Professor Bryce Steinberg ‘09,
+                    Professor Kenneth Chay, international economics graduate student Vaishali Garga.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- February 15, 2017 -->
+
+        <div class="contain">
+            <div class="event-image">
+                <img src="../images/faculty_lecture/f_feb_15_2017.png" alt="HTML" class="flowLeft">
+            </div>
+        </div>
+        <div class="contain">
+            <div class="right_events">
+                <p>
+                    <b> Does Disease Cause Vaccination? - A Lunch with Prof Emily Oster</b> <br>
+                    <i>February 15, 2017 </i> <br> <br>
+                    The Econ DUG presented another lunch lecture in the series, featuring Professor Emily Oster.
+                    Professor Oster’s research focuses on health and development economics. Attendees learned
+                    about her work at the time focused on how individuals seek out, and react to, health
+                    information. Her work is perhaps best-known among non-economists for her writings and
+                    appearances in mainstream media, including the Wall Street Journal, the best-selling
+                    SuperFreakonomics book, and her 2007 TED Talk. Catering was provided.
+                </p>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
