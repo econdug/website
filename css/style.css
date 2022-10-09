@@ -1,13 +1,17 @@
-
+html * {
+    /* font style for everything in the body */
+    font-family: 'Circular Std', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
 /* auto style for the entire background */
 body{
-    /* font style for everything in the body */
-    font-family: 'Circular Std', sans-serif !important;
     font-size: 15px;
     /* space between every line */
     line-height:1.5;
     padding:0;
     margin:0;
+    font-weight: 450 !important;
     background-color: #fbedde !important;
     color: #232122;
 
@@ -138,7 +142,6 @@ header a:hover{
 
 #welcome {
     text-align: center;
-    font-size: 17px;
 }
 
 
@@ -286,7 +289,6 @@ header a:hover{
 
 #welcome_resources {
     text-align: center;
-    font-size: 17px;
 }
 
 
