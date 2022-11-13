@@ -423,39 +423,6 @@ div.right_events {
 
 }
 
-/* .home-flexbox{
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin: auto;
-    padding: 0;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* about us style */
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 600px) {
@@ -475,6 +442,8 @@ div.right_events {
         align-items: center;
         width: 80% !important;
         background-color: white;
+        height: 100%;
+        min-height: 850px;
     }
 
     .eb-flexbox{
@@ -575,6 +544,21 @@ div.right_events {
         justify-content: center;
         }
 
+    .eb-member{
+        margin: 2%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        background-color: white;
+        border-color: #ffc107;
+        border-style: none none solid none;
+        border-width: 4px;
+        padding: 10px;
+        height: 100%;
+        min-height: max-content !important;
+    }
+
 }
 
 .eb-flexbox{
@@ -583,7 +567,6 @@ div.right_events {
     flex-flow: row wrap;
     align-items: flex-start;
     flex-wrap: wrap;
-
     margin:auto;
     padding: 0;
 }
@@ -593,12 +576,14 @@ div.right_events {
     display: block;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 40%;
     background-color: white;
     border-color: #ffc107;
     border-style: none none solid none;
     border-width: 4px;
     padding: 10px;
+    height: 100%;
+    min-height: auto;
 }
 
 .eb-img {
@@ -616,6 +601,7 @@ div.right_events {
     /*max-height: 280px;*/
     object-fit: cover;
     padding: 5px;
+    max-width: 300px;
 }
 
 .eb-name{
@@ -760,27 +746,6 @@ div.right_events {
 
 }
 
-/* Below could delete!
-
-.about_preview_people {
-    display:grid;
-    grid-template-columns: 50% 50%;
-    grid-row-gap: 150px;
-}
-.grid_about_people {
-    margin-left: 100px;
-    margin-right: 100px;
-    width: 100%;
-    font-size: 17px;
-    text-align:center;
-}
-
-div.left_image {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-  /*  width: 120px; */
-/* } */
 div.left_image img {
     width: 500px;
     height: 350px;
