@@ -82,6 +82,8 @@
         </div>
     </section>
 
+<!-- May use bot scraping for future https://www.botsol.com/bots/facebook-events-scraper -->
+
     <section id="display-events">
         <div class="row">
             <div class="column left">
@@ -90,6 +92,7 @@
                     <div class="in_button">
                         Year
                     </div>
+                    <button class="set_button" onclick=all_return()>All</button>
                     <button class="set_button" onclick=filterYear("2023")>2023</button>
                     <button class="set_button" onclick=filterYear("2022")>2022</button>
                     <button class="set_button" onclick=filterYear("2021")>2021</button>
@@ -99,6 +102,59 @@
             </div>
             <div class="column right">
                 <div class="event-flexbox">
+                    <div class="event 2023">
+                        <div class="event-image 2023"><img src="../images/events/guest_lecture.png"
+                                                           alt="Econ Department Presents: Econ Lecture Lunch
+                                                           Series with Professor Jesse Bruhn"></div>
+                        <div class="event-name 2023">Econ Department Presents: Econ Lecture Lunch Series with
+                            Professor Jesse Bruhn</div>
+                        <div class="event-date 2023">December 7, 2022</div>
+                        <div class="event-description 2023">The lectures (aimed specifically at undergraduate students)
+                            will feature faculty members, guest speakers and other prominent figures in the field of
+                            Economics. Assistant Professor Jesse Bruhn will discuss modern research related to
+                            illegal markets and criminal organizations TODAY. This will include a short survey of
+                            existing literature, as well as a discussion of his own work on illegal markets,
+                            gang violence and inner-city economic development in the United States.</div>
+                    </div>
+
+                    <div class="event 2022">
+                        <div class="event-image 2022"><img src="../images/events/coffee_on_the_dug.jpeg"
+                                                           alt="Econ DUG Presents: Coffee on the DUG"></div>
+                        <div class="event-name 2022">Econ DUG Presents: Coffee on the DUG</div>
+                        <div class="event-date 2022">December 7, 2022</div>
+                        <div class="event-description 2022">Need a break from studying for finals? Sign up for coffee
+                            chats on the Econ DUG where you'll be paired with an upperclassman/underclassman
+                            involved/interested in Economics at Brown. Sign-ups limited to the first 10 pairs,
+                            so act fast! The link to sign up will be posted on Dec. 7th at 11am.</div>
+                    </div>
+
+                    <div class="event 2022">
+                        <div class="event-image 2022"><img src="../images/events/intro-to-finance.jpeg"
+                                                           alt="Econ DUG Presents: An Introduction to Personal Finance"></div>
+                        <div class="event-name 2022">Econ DUG Presents: An Introduction to Personal Finance</div>
+                        <div class="event-date 2022">November 15, 2022</div>
+                        <div class="event-description 2022">Having trouble navigating buzz terms such as Savings?
+                            Student Debt? W9? Credit Reports? Well, these topics all lie under Personal Finance,
+                            which isn’t necessarily taught in school. People tend to build these skills through family,
+                            mentors, role models, etc. Not everyone has this privilege, however. T
+                            he goal of our event is to simply expand the accessibility of financial literacy.
+
+                            We created a short curriculum highlighting important personal finance topics,
+                            which will be presented by two of the most renowned faculty members within
+                            Brown's Economics Department: Professor Bradford Gibbs and Professor Sylvia Kuo.
+                            Make sure to stop by if interested! Free pizza will be provided!</div>
+                    </div>
+
+                    <div class="event 2022">
+                        <div class="event-image 2022"><img src="../images/events/Women_In_Economics.jpeg"
+                                                           alt="Econ DUG Presents: Women in Economics"></div>
+                        <div class="event-name 2022">Econ DUG Presents: Women in Economics</div>
+                        <div class="event-date 2022">November 30, 2022</div>
+                        <div class="event-description 2022">Learn from the experiences of women-identifying professors
+                            in the Brown Economics department! They will talk about their initial interest in Economics,
+                            journey to Brown, and provide advice!</div>
+                    </div>
+
                     <div class="event 2021">
                         <div class="event-image 2021"><img src="../images/events/Econ Students of Color Group Resume Workshop.jpeg"
                                                       alt="Econ Students of Color Group Resume Workshop"></div>
@@ -400,5 +456,10 @@
                 ? animal.style.display = "block" // if yes, make sure .hidden is not applied
                 : animal.style.display = "none"; // if no, apply .hidden
         });
+    }
+
+    function all_return() {
+        const animals = document.querySelectorAll(".event-flexbox div"); // select all animal divs
+        animals.forEach(animal => animal.style.display = "block"); // if yes, make sure .hidden is not applied
     }
 </script>
