@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- <link rel="shortcut icon" type="img/png" href="images/favicon.png"> -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Economics Department Undergraduate Group, Events Page ">
@@ -91,6 +90,7 @@
                     <div class="in_button">
                         Year
                     </div>
+
                     <button class="set_button" style="padding-left: 134px; padding-right: 134px;" onclick=all_return()>All</button>
                     <button class="set_button" onclick=filterYear("2023")>2023</button>
                     <button class="set_button" onclick=filterYear("2022")>2022</button>
@@ -451,7 +451,7 @@
     function filterYear(filter) {
         const animals = document.querySelectorAll(".event-flexbox div"); // select all animal divs
         animals.forEach(animal => {
-            animal.classList.contains(filter) // does the animal have the filter in its class list?
+            animal.classList.contains(filter) && !animal.classList.contains("event-description")  // does the animal have the filter in its class list?
                 ? animal.style.display = "block" // if yes, make sure .hidden is not applied
                 : animal.style.display = "none"; // if no, apply .hidden
         });
@@ -459,6 +459,10 @@
 
     function all_return() {
         const animals = document.querySelectorAll(".event-flexbox div"); // select all animal divs
-        animals.forEach(animal => animal.style.display = "block"); // if yes, make sure .hidden is not applied
+        animals.forEach(animal => {
+            animal.classList.contains("event-description")  // does the animal have the filter in its class list?
+                ? animal.style.display = "none" // if yes, make sure .hidden is not applied
+                : animal.style.display = "block"; // if no, apply .hidden
+        }); // if yes, make sure .hidden is not applied
     }
 </script>
