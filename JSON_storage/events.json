@@ -1,0 +1,23 @@
+[
+  {
+    "image": "../images/events/prereg_2022.jpeg",
+    "name" : "Econ DUG Presents: Pre-Registration Open Hours",
+    "date" : "November 15, 2022",
+    "year" : "2022",
+    "description": "Having trouble navigating buzz terms such as Savings?\nStudent Debt? W9? Credit Reports? Well, these topics all lie under Personal Finance,\nwhich isn’t necessarily taught in school. People tend to build these skills through family,\nmentors, role models, etc. Not everyone has this privilege, however. T\nhe goal of our event is to simply expand the accessibility of financial literacy.\n\nWe created a short curriculum highlighting important personal finance topics,\nwhich will be presented by two of the most renowned faculty members within\nBrown's Economics Department: Professor Bradford Gibbs and Professor Sylvia Kuo.\nMake sure to stop by if interested! Free pizza will be provided!"
+  },
+  {
+    "image": "./images/events/Econ Students of Color Group Resume Workshop.jpeg",
+    "name" : "Econ Students of Color Group Resume Workshop",
+    "date" : "December 9, 2021",
+    "year" : "2021",
+    "description": "The Econ Students of Color Group hosted its inaugural event: a resume\nworkshop in collaboration with the CareerLab. Led by Peer Career Advisors, attendees received\nspecific advice and tips on how to create a clean and informative resume to be used in future\ninternship and job searches. Insomnia Cookies were provided."
+  },
+  {
+  "image": "../images/events/careers in technology.jpeg",
+  "name" : "Careers in Technology",
+  "date" : "December 2, 2021",
+  "year" : "2021",
+  "description": "The Economics DUG collaborate with the CS DUG to host a Careers in Technology\npanel. Attendees interested in careers in technology heard from and recent Brown alumni about their\nexperiences recruiting and working for different technology companies."
+ }
+]
