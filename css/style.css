@@ -168,7 +168,8 @@ header a:hover{
 }
 
 .active, .collapsible:hover {
-    background-color: gray;
+    /* background-color: gray; */
+    color: #8a0804 !important;
 }
 
 .content {
@@ -805,6 +806,8 @@ button {
 
 .eb-bio{
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
     color: #000000;
 }
 
@@ -875,20 +878,27 @@ button {
      gap: 70px;
      height: 100%;
 
- }
+}
+
+.sticky-yellow-bar {
+    /* Stick the bar to the bottom of the page */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 
 #item-0 {
-
+    position: relative;
     background-color: white;
     grid-row-start: 1;
     grid-column-start: 2;
 
     grid-row-end: 2;
     grid-column-end: 4;
-
 }
 #item-1 {
-
+    position: relative;
     background-color: white;
     grid-row-start: 1;
     grid-column-start: 4;
@@ -899,7 +909,7 @@ button {
 
 }
 #item-2 {
-
+    position: relative;
     background-color: white;
     grid-row-start: 2;
     grid-column-start: 2;
@@ -910,7 +920,7 @@ button {
 
 }
 #item-3 {
-
+    position: relative;
     background-color: white;
     grid-row-start: 2;
     grid-column-start: 4;
@@ -921,7 +931,7 @@ button {
 
 }
 #item-4 {
-
+    position: relative;
     background-color: white;
     grid-row-start: 3;
     grid-column-start: 2;
@@ -932,7 +942,7 @@ button {
 
 }
 #item-5 {
-
+    position: relative;
     background-color: white;
     grid-row-start: 3;
     grid-column-start: 4;
@@ -943,7 +953,7 @@ button {
 
 }
 #item-6 {
-
+    position: relative;
     background-color: white;
     grid-row-start: 4;
     grid-column-start: 2;
@@ -954,7 +964,7 @@ button {
 
 }
 #item-7 {
-
+    position: relative;
     background-color: white;
     grid-row-start: 4;
     grid-column-start: 4;
@@ -965,7 +975,7 @@ button {
 
 }
 #item-8 {
-
+    position: relative;
     background-color: white;
     grid-row-start: 5;
     grid-column-start: 2;
@@ -976,7 +986,7 @@ button {
 
 }
 #item-9 {
-
+    position: relative;
     background-color: white;
     grid-row-start: 5;
     grid-column-start: 4;
@@ -987,7 +997,7 @@ button {
 
 }
 #item-10 {
-
+    position: relative;
     background-color: white;
     grid-row-start: 6;
     grid-column-start: 2;
@@ -998,7 +1008,7 @@ button {
 
 }
 #item-11 {
-
+    position: relative;
     background-color: white;
     grid-row-start: 6;
     grid-column-start: 4;
@@ -1009,7 +1019,7 @@ button {
 
 }
 #item-12 {
-
+    position: relative;
     background-color: white;
     grid-row-start: 7;
     grid-column-start: 3;
