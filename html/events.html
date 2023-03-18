@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://fonts.cdnfonts.com/css/circular-std" rel="stylesheet">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -69,7 +70,7 @@
         <div class="container">
             <div class="white-box">
                 <h1 style="padding: 30px 0px 20px 0px"> Economics DUG Events</h1>
-                <p style="padding-left: 80px; padding-right: 80px;">
+                <p class="description_page">
                     The Economics DUG hosts a variety of academic and career-related events every semester. Feel free to 
                     follow our <a href="https://www.instagram.com/brownecondug/" target=”_blank”> Instagram</a> and subscribe to 
                     the Economics DUG <a
@@ -83,6 +84,21 @@
 <!-- May use bot scraping for future https://www.botsol.com/bots/facebook-events-scraper -->
 
     <section id="display-events">
+
+        <div class="mobile-col">
+            <div class="container" style="text-align: center;">
+                <label for="cars">Choose a year:</label>
+
+                <select name="cars" id="cars">
+                    <option value="all">All</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                </select>
+            </div>
+        </div>
+
         <div class="row">
             <div class="column left">
             <section id="filter-based">
@@ -91,7 +107,7 @@
                         Year
                     </div>
 
-                    <button class="set_button" style="padding-left: 134px; padding-right: 134px;" onclick=all_return()>All</button>
+                    <button class="set_button" onclick=all_return()>All</button>
                     <button class="set_button" onclick=filterYear("2023")>2023</button>
                     <button class="set_button" onclick=filterYear("2022")>2022</button>
                     <button class="set_button" onclick=filterYear("2021")>2021</button>
@@ -99,6 +115,7 @@
                 </div>
             </section>
             </div>
+
             <div class="column right">
                 <div class="event-flexbox">
                     <div class="event 2023">
