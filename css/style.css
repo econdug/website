@@ -805,8 +805,9 @@ button {
 
 .eb-bio{
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    font-size: 75%;
+    margin-left: 3%;
+    margin-right: 3%;
     color: #000000;
 }
 
@@ -815,10 +816,11 @@ button {
 }
 
 .eb-links{
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .link-icon{
@@ -885,6 +887,7 @@ button {
     bottom: 0;
     left: 0;
     right: 0;
+    height: 1%;
 }
 
 #item-0 {
