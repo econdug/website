@@ -168,7 +168,11 @@ header a:hover{
 }
 
 .active, .collapsible:hover {
+<<<<<<< HEAD
     background-color: gray;
+=======
+    color: #8a0804 !important;
+>>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
 }
 
 .content {
@@ -805,6 +809,9 @@ button {
 
 .eb-bio{
     text-align: center;
+    font-size: 75%;
+    margin-left: 3%;
+    margin-right: 3%;
     color: #000000;
 }
 
@@ -813,10 +820,11 @@ button {
 }
 
 .eb-links{
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .link-icon{
@@ -875,20 +883,42 @@ button {
      gap: 70px;
      height: 100%;
 
+<<<<<<< HEAD
  }
 
 #item-0 {
 
+=======
+}
+
+.sticky-yellow-bar {
+    /* Stick the bar to the bottom of the page */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1%;
+}
+
+#item-0 {
+    position: relative;
+>>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 1;
     grid-column-start: 2;
 
     grid-row-end: 2;
     grid-column-end: 4;
+<<<<<<< HEAD
 
 }
 #item-1 {
 
+=======
+}
+#item-1 {
+    position: relative;
+>>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 1;
     grid-column-start: 4;
@@ -899,7 +929,11 @@ button {
 
 }
 #item-2 {
+<<<<<<< HEAD
 
+=======
+    position: relative;
+>>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 2;
     grid-column-start: 2;
@@ -910,7 +944,11 @@ button {
 
 }
 #item-3 {
+<<<<<<< HEAD
 
+=======
+    position: relative;
+>>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 2;
     grid-column-start: 4;
@@ -921,7 +959,11 @@ button {
 
 }
 #item-4 {
+<<<<<<< HEAD
 
+=======
+    position: relative;
+>>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 3;
     grid-column-start: 2;
@@ -932,7 +974,11 @@ button {
 
 }
 #item-5 {
+<<<<<<< HEAD
 
+=======
+    position: relative;
+>>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 3;
     grid-column-start: 4;
@@ -943,7 +989,11 @@ button {
 
 }
 #item-6 {
+<<<<<<< HEAD
 
+=======
+    position: relative;
+>>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 4;
     grid-column-start: 2;
@@ -954,7 +1004,11 @@ button {
 
 }
 #item-7 {
+<<<<<<< HEAD
 
+=======
+    position: relative;
+>>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 4;
     grid-column-start: 4;
@@ -965,7 +1019,11 @@ button {
 
 }
 #item-8 {
+<<<<<<< HEAD
 
+=======
+    position: relative;
+>>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 5;
     grid-column-start: 2;
@@ -976,7 +1034,11 @@ button {
 
 }
 #item-9 {
+<<<<<<< HEAD
 
+=======
+    position: relative;
+>>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 5;
     grid-column-start: 4;
@@ -987,7 +1049,11 @@ button {
 
 }
 #item-10 {
+<<<<<<< HEAD
 
+=======
+    position: relative;
+>>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 6;
     grid-column-start: 2;
@@ -998,7 +1064,11 @@ button {
 
 }
 #item-11 {
+<<<<<<< HEAD
 
+=======
+    position: relative;
+>>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 6;
     grid-column-start: 4;
@@ -1009,7 +1079,11 @@ button {
 
 }
 #item-12 {
+<<<<<<< HEAD
 
+=======
+    position: relative;
+>>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 7;
     grid-column-start: 3;
@@ -1062,6 +1136,17 @@ button {
     font-size: 22px;
     margin-bottom: 5px;
     color: #8a0804;
+    padding-top: 5px;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+.resource_description{
+    text-align: center;
+    overflow: hidden;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #000000;
     padding-top: 5px;
     font-weight: bolder;
     padding-bottom: 15px;

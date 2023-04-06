@@ -86,7 +86,7 @@
     <section id="display-events">
 
         <div class="mobile-col">
-            <div class="container" style="text-align: center;">
+            <div class="container" style="text-align: center; margin-top: 15px">
                 <label for="cars">Choose a year:</label>
 
                 <select name="cars" id="cars">
@@ -181,9 +181,10 @@
                         <div class="event-name 2022">Econ DUG Presents: Pre-Registration Open Hours</div>
                         <div class="event-date 2022">November 15, 2022</div>
                         <button class="collapsible">Details</button>
-                        <div class="event-description 2022">Having trouble navigating buzz terms such as Savings?
-                            Student Debt? W9? Credit Reports? Well, these topics all lie under Personal Finance,
-                            which isn’t necessarily taught in school. People tend to build these skills through family,
+                        <div class="event-description 2022">
+                            Having trouble navigating buzz terms such as Savings? Student Debt? W9? Credit Reports?
+                            Well, these topics all lie under Personal Finance,which isn’t necessarily taught in school.
+                            People tend to build these skills through family,
                             mentors, role models, etc. Not everyone has this privilege, however. T
                             he goal of our event is to simply expand the accessibility of financial literacy.
 
@@ -523,6 +524,10 @@
     function all_return() {
         const animals = document.querySelectorAll(".event-flexbox div"); // select all animal divs
         animals.forEach(animal => animal.style.display = "block");
+    }
+
+    function value_return() {
+        docu
     }
 
     var coll = document.getElementsByClassName("collapsible");
