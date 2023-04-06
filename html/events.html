@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <!--     <link rel="shortcut icon" type="img/png" href="images/favicon.png"> -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Economics Department Undergraduate Group, Events Page ">
@@ -15,6 +14,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://fonts.cdnfonts.com/css/circular-std" rel="stylesheet">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -70,14 +70,13 @@
         <div class="container">
             <div class="white-box">
                 <h1 style="padding: 30px 0px 20px 0px"> Economics DUG Events</h1>
-                <p>
-                    The Economics DUG hosts a variety of academic and career-related events every semester. Like our <a
-                        href="https://www.facebook.com/econdug/" target=”_blank”> Facebook</a> page, the Economics
-                    Department <a href="https://www.facebook.com/BrownUniversityEconomics" target=”_blank”>Facebook</a>
-                    page, and
-                    subscribe to the Economics DUG <a
+                <p class="description_page">
+                    The Economics DUG hosts a variety of academic and career-related events every semester. Feel free to 
+                    follow our <a href="https://www.instagram.com/brownecondug/" target=”_blank”> Instagram</a> and subscribe to 
+                    the Economics DUG <a
                         href="https://forms.gle/Jk9Uoxway6HTVBH49"
-                        target=”_blank”>newsletter,</a> to stay updated on upcoming opportunities!</p>
+                        target=”_blank”>newsletter</a> to stay updated on upcoming opportunities!
+                </p>
             </div>
         </div>
     </section>
@@ -85,6 +84,21 @@
 <!-- May use bot scraping for future https://www.botsol.com/bots/facebook-events-scraper -->
 
     <section id="display-events">
+
+        <div class="mobile-col">
+            <div class="container" style="text-align: center; margin-top: 15px">
+                <label for="cars">Choose a year:</label>
+
+                <select name="cars" id="cars">
+                    <option value="all">All</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                </select>
+            </div>
+        </div>
+
         <div class="row">
             <div class="column left">
             <section id="filter-based">
@@ -92,6 +106,7 @@
                     <div class="in_button">
                         Year
                     </div>
+
                     <button class="set_button" onclick=all_return()>All</button>
                     <button class="set_button" onclick=filterYear("2023")>2023</button>
                     <button class="set_button" onclick=filterYear("2022")>2022</button>
@@ -100,6 +115,7 @@
                 </div>
             </section>
             </div>
+
             <div class="column right">
                 <div class="event-flexbox">
                     <div class="event 2023">
@@ -109,6 +125,10 @@
                         <div class="event-name 2023">Econ Department Presents: Econ Lecture Lunch Series with
                             Professor Jesse Bruhn</div>
                         <div class="event-date 2023">February 23, 2023</div>
+<<<<<<< HEAD
+=======
+                        <button class="collapsible">Details</button>
+>>>>>>> e7f0240cfba34824ec769015d5dabe3b8927c690
                         <div class="event-description 2023">The lectures (aimed specifically at undergraduate students)
                             will feature faculty members, guest speakers and other prominent figures in the field of
                             Economics. Assistant Professor Jesse Bruhn will discuss modern research related to
@@ -122,6 +142,7 @@
                                                            alt="Econ DUG Presents: Coffee on the DUG"></div>
                         <div class="event-name 2022">Econ DUG Presents: Coffee on the DUG</div>
                         <div class="event-date 2022">December 7, 2022</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2022">Need a break from studying for finals? Sign up for coffee
                             chats on the Econ DUG where you'll be paired with an upperclassman/underclassman
                             involved/interested in Economics at Brown. Sign-ups limited to the first 10 pairs,
@@ -133,6 +154,7 @@
                                                            alt="Econ DUG Presents: Women in Economics"></div>
                         <div class="event-name 2022">Econ DUG Presents: Women in Economics</div>
                         <div class="event-date 2022">November 30, 2022</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2022">Learn from the experiences of women-identifying professors
                             in the Brown Economics department! They will talk about their initial interest in Economics,
                             journey to Brown, and provide advice!</div>
@@ -143,6 +165,7 @@
                                                            alt="Econ DUG Presents: An Introduction to Personal Finance"></div>
                         <div class="event-name 2022">Econ DUG Presents: An Introduction to Personal Finance</div>
                         <div class="event-date 2022">November 15, 2022</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2022">Having trouble navigating buzz terms such as Savings?
                             Student Debt? W9? Credit Reports? Well, these topics all lie under Personal Finance,
                             which isn’t necessarily taught in school. People tend to build these skills through family,
@@ -157,13 +180,21 @@
 
                     <div class="event 2022">
                         <div class="event-image 2022"><img src="../images/events/prereg_2022.jpeg"
-                                                           alt="Econ DUG Presents: An Introduction to Personal Finance"></div>
+                                                           alt="Econ DUG Presents: Pre-Registration Open Hours"></div>
                         <div class="event-name 2022">Econ DUG Presents: Pre-Registration Open Hours</div>
-                        <div class="event-date 2022">November 9, 2022</div>
-                        <div class="event-description 2022">Are you unsure about what Economics classes to take this
-                            upcoming Spring semester? Come to Econ DUG's Pre-Registration Info Session! Receive advice,
-                            recommendations, and get your questions answered by Economics professors and peer advisors.
-                        </div>
+                        <div class="event-date 2022">November 15, 2022</div>
+                        <button class="collapsible">Details</button>
+                        <div class="event-description 2022">
+                            Having trouble navigating buzz terms such as Savings? Student Debt? W9? Credit Reports?
+                            Well, these topics all lie under Personal Finance,which isn’t necessarily taught in school.
+                            People tend to build these skills through family,
+                            mentors, role models, etc. Not everyone has this privilege, however. T
+                            he goal of our event is to simply expand the accessibility of financial literacy.
+
+                            We created a short curriculum highlighting important personal finance topics,
+                            which will be presented by two of the most renowned faculty members within
+                            Brown's Economics Department: Professor Bradford Gibbs and Professor Sylvia Kuo.
+                            Make sure to stop by if interested! Free pizza will be provided!</div>
                     </div>
 
                     <div class="event 2021">
@@ -171,6 +202,7 @@
                                                       alt="Econ Students of Color Group Resume Workshop"></div>
                         <div class="event-name 2021">Econ Students of Color Group Resume Workshop</div>
                         <div class="event-date 2021">December 9, 2021</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2021">The Econ Students of Color Group hosted its inaugural event: a resume
                             workshop in collaboration with the CareerLab. Led by Peer Career Advisors, attendees received
                             specific advice and tips on how to create a clean and informative resume to be used in future
@@ -182,6 +214,7 @@
                                                       alt="Careers in Technology"></div>
                         <div class="event-name 2021">Careers in Technology</div>
                         <div class="event-date 2021">December 2, 2021</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2021">The Economics DUG collaborate with the CS DUG to host a Careers in Technology
                             panel. Attendees interested in careers in technology heard from and recent Brown alumni about their
                             experiences recruiting and working for different technology companies.</div>
@@ -192,6 +225,7 @@
                                                       alt="Pre-Registration Open Hours"></div>
                         <div class="event-name 2021">Pre-Registration Open Hours</div>
                         <div class="event-date 2021">November 8-10, 2021</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2021">The Economics DUG hosted Pre-Registration Open Hours, where attendees chatted
                             with upperclassmen and DUG members concentrating in Economics and the other joint concentrations,
                             asked questions about which Economics classes to take next, and got advice for the upcoming semester
@@ -204,6 +238,7 @@
                             alt="Diversity in Consulting and Finance Internships"></div>
                         <div class="event-name 2021">Diversity in Consulting and Finance Internships</div>
                         <div class="event-date 2021">November 2, 2021</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2021">The Economics DUG hosted a Diversity in Consulting and Finance Internship
                             panel, where attendees heard from former interns about their experiences recruiting and working for
                             companies in these industries. Insomnia Cookies were provided.</div>
@@ -214,6 +249,7 @@
                                                       alt="Halloween Movie Night: The Social Network"></div>
                         <div class="event-name 2021">Halloween Movie Night: The Social Network</div>
                         <div class="event-date 2021">October 23, 2021</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2021">
                             The Economics DUG hosted a Halloween Movie Night, where attendees took a break from midterms to watch The
                             Social Network, a movie about the controversial founding of Facebook. Pizza, popcorn, and candy were
@@ -225,6 +261,7 @@
                         </div>
                         <div class="event-name 2021">Coffee on the DUG</div>
                         <div class="event-date 2021">October, 2021</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2021">
                             The Economics DUG hosted Coffee on the DUG, where we paired and paid for a select number of students
                             interested in Economics to meet each other over coffee. A $10 Starbucks gift was provided to each
@@ -236,6 +273,7 @@
                                                       alt="Career and Academic Success as a UFLi Students"></div>
                         <div class="event-name 2021">Career and Academic Success as a UFLi Students</div>
                         <div class="event-date 2021">April 15, 2021</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2021">
                             The Economics DUG collaborated with the UFLi Center to host a Panel on Career and Academic Success as a
                             UFLi Student. Attendees learned how current UFLi students and alumni navigated their time at Brown
@@ -249,6 +287,7 @@
                                                       alt="Conversations on Race and Capitalism"></div>
                         <div class="event-name 2021">Conversations on Race and Capitalism</div>
                         <div class="event-date 2021">April 2, 2021</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2021">The Econ and Sociology DUG collaborated to host Conversations on Race and
                             Capitalism. This half-day symposium introduced the concepts of race and capitalism and how they
                             intersect in the construction of inequality and stratification in the United States. Through
@@ -263,6 +302,7 @@
                             alt="Graduate School Workshop Part 2: Conversations with Economists of Color"></div>
                         <div class="event-name 2021">Graduate School Workshop Part 2: Conversations with Economists of Color</div>
                         <div class="event-date 2021">March 20, 2021</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2021">The Economics DUG hosted the second installment in our Graduate School Series,
                             Conversations with Economists of Color. Attendees heard speakers, including professors and graduate
                             students of color from the Department of Economics, answer guided questions. Attendees were entered
@@ -274,6 +314,7 @@
                         </div>
                         <div class="event-name 2021">Career Coffee Chats</div>
                         <div class="event-date 2021">March 27 and 28, 2021</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2021">The Economics DUG hosted Career Coffee Chats, where students interested in
                             having 1-on-1 conversations with upperclassmen/alumni working in marketing at Microsoft, investment
                             banking at Goldman Sachs, or consulting at McKinsey had the opportunity to sign up and RSVP for a
@@ -286,6 +327,7 @@
                             alt="Concentration Declaration & Pre-Registration Open Hours"></div>
                         <div class="event-name 2021">Concentration Declaration & Pre-Registration Open Hours</div>
                         <div class="event-date 2021">March 11, 2021</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2021">For sophomores intending to declare a concentration in Economics (or any
                             of the joint concentrations) and first-year students wondering which Econ classes to take next, the
                             Economics DUG hosted a Concentration Declaration & Pre-Reg Open Hours event. Attendees learned all about
@@ -298,6 +340,7 @@
                                                       alt="How to Succeed During a Summer in Finance"></div>
                         <div class="event-name 2021">How to Succeed During a Summer in Finance</div>
                         <div class="event-date 2021">February 24, 2021</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2021">The Economics DUG hosted How to Succeed During a Summer in Finance, a panel
                             geared toward helping students be successful in their first internship/job and learn about the
                             expectations of a career in finance. Attendees heard students who have interned in the past speak
@@ -309,6 +352,7 @@
                                                       alt="Graduate School Workshop Part 1: Is Graduate School Right for Me?"></div>
                         <div class="event-name 2021">Graduate School Workshop Part 1: Is Graduate School Right for Me?</div>
                         <div class="event-date 2021">February 22, 2021</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2021">The Economics DUG hosted the first installment in our Graduate School Series,
                             Is Graduate School Right for Me? Following an in-depth presentation about the graduate school
                             application process from Professor Shapiro, Economics Ph.D. advisor, attendees had the opportunity
@@ -321,6 +365,7 @@
                                                       alt="Economics Student Social"></div>
                         <div class="event-name 2021">Economics Student Social</div>
                         <div class="event-date 2021">Feburary 11, 2021</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2021">The Economics DUG hosted an Economics Student Social, where attendees hopped
                             on Zoom to find study buddies to pset with in course-specific breakout rooms. Three attendees were
                             randomly selected to win a $10 Amazon gift card.
@@ -332,6 +377,7 @@
                                                       alt="Diversity in Private Equity Panel"></div>
                         <div class="event-name 2021">Diversity in Private Equity Panel</div>
                         <div class="event-date 2021">January 30, 2021</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2021">The Economics DUG collaborated with Brown Entrepreneurship Program’s Diversity
                             & Inclusion Team to put on a Diversity in Private Equity Panel. An incredible group of panelists
                             talked about their experience in the Private Equity field, followed by an open Q&A session with
@@ -343,6 +389,7 @@
                                                       alt="Consulting vs. Finance Panel"></div>
                         <div class="event-name 2020">Consulting vs. Finance Panel</div>
                         <div class="event-date 2020">November 18, 2020</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2020">The Economics DUG collaborated with the Brown Consulting Club to host a
                             Consulting vs. Finance Panel. The panel showcased undergraduate and alumni panelists for a
                             comprehensive conversation on the consulting and finance industries, giving attendees the
@@ -354,6 +401,7 @@
                                                       alt="Speed Networking with Alumni"></div>
                         <div class="event-name 2020">Speed Networking with Alumni</div>
                         <div class="event-date 2020">November 14, 2020</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2020">The Economics DUG collaborated with Women in Business (WIB) and Socially
                             Responsible Investment Fund (SRIF) to host Speed Networking with Alumni, featuring Brown alumni in
                             the following business areas: Investment Research @ Goldman Sachs, Sales & Trading @ Citi, Wealth
@@ -367,6 +415,7 @@
                                                       alt="Pre-Registration Open Hours"></div>
                         <div class="event-name 2020">Pre-Registration Open Hours</div>
                         <div class="event-date 2020">November 12, 2020</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2020">The Economics DUG hosted Pre-Registration Open Hours, where attendees chatted
                             with upperclassmen and DUG members concentrating in Economics and the other joint concentrations,
                             asked questions about which Economics classes to take next, and got advice for the upcoming semester
@@ -378,6 +427,7 @@
                                                       alt="FREAKonomics Kahoot Night"></div>
                         <div class="event-name 2020">FREAKonomics Kahoot Night</div>
                         <div class="event-date 2020">October 29, 2020</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2020">To get into the Halloween spirit, the Economics DUG hosted FREAKonomics Kahoot
                             Night, where attendees teamed up with others to play multiple rounds of Economics-themed Kahoot. The
                             top players in each round won an Amazon gift card.</div>
@@ -388,6 +438,7 @@
                                                       alt="Intro to Finance Panel"></div>
                         <div class="event-name 2020">Intro to Finance Panel</div>
                         <div class="event-date 2020">October 20, 2020</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2020">The Economics DUG hosted an Intro to Finance Panel, featuring upperclassmen
                             working in investment banking, sales & trading, and wealth management. The event began with an
                             overview of the finance recruiting timeline, including some best tips for the process, then opened
@@ -399,6 +450,7 @@
                                                       alt="Breaking into Harvard Business School"></div>
                         <div class="event-name 2020">Breaking into Harvard Business School</div>
                         <div class="event-date 2020">September 19, 2020</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2020">The Economics DUG collaborated with Women in Business (WIB) to host Breaking
                             into Harvard Business School. Attendees heard from Brown alumni who are MBA candidates at Harvard
                             Business School and learned how to make their B-School application stand out. This event was open to
@@ -410,6 +462,7 @@
                                                       alt="Pre-Registration Open Hours"></div>
                         <div class="event-name 2020">Pre-Registration Open Hours</div>
                         <div class="event-date 2020">August 7, 2020</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2020">The Economics DUG hosted Pre-Registration Open Hours, where attendees chatted
                             with upperclassmen and DUG members concentrating in Economics and the other joint concentrations,
                             asked questions about which Economics classes to take next, and got advice for the upcoming semester
@@ -420,6 +473,7 @@
                         <div class="event-image 2020"><img src="../images/events/Finance 101.jpeg" alt="Finance 101"></div>
                         <div class="event-name 2020">Finance 101</div>
                         <div class="event-date 2020">Feburary 26, 2020</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2020">The Economics DUG hosted an event to answer questions such as: What exactly is
                             finance, and what prepares you for the industry? Do you know what you need to do to get a finance
                             internship? What are Super Days? What do you actually do when you have a job in finance?<br>
@@ -432,6 +486,7 @@
                         <div class="event-image 2020"><img src="../images/events/Consulting 101.jpeg" alt="Consulting 101"></div>
                         <div class="event-name 2020">Consulting 101</div>
                         <div class="event-date 2020">Feburary 25, 2020</div>
+                        <button class="collapsible">Details</button>
                         <div class="event-description 2020">The Economics DUG hosted an event to answer questions such as: What actually
                             is consulting? What do consultants do? How do you network for it? How do you get a summer internship
                             doing it?<br>
@@ -463,7 +518,7 @@
     function filterYear(filter) {
         const animals = document.querySelectorAll(".event-flexbox div"); // select all animal divs
         animals.forEach(animal => {
-            animal.classList.contains(filter) // does the animal have the filter in its class list?
+            animal.classList.contains(filter)  // does the animal have the filter in its class list?
                 ? animal.style.display = "block" // if yes, make sure .hidden is not applied
                 : animal.style.display = "none"; // if no, apply .hidden
         });
@@ -471,6 +526,25 @@
 
     function all_return() {
         const animals = document.querySelectorAll(".event-flexbox div"); // select all animal divs
-        animals.forEach(animal => animal.style.display = "block"); // if yes, make sure .hidden is not applied
+        animals.forEach(animal => animal.style.display = "block");
+    }
+
+    function value_return() {
+        docu
+    }
+
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
     }
 </script>
