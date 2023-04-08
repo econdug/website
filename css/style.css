@@ -882,13 +882,6 @@ button {
 
      gap: 70px;
      height: 100%;
-
-<<<<<<< HEAD
- }
-
-#item-0 {
-
-=======
 }
 
 .sticky-yellow-bar {
@@ -902,23 +895,16 @@ button {
 
 #item-0 {
     position: relative;
->>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 1;
     grid-column-start: 2;
 
     grid-row-end: 2;
     grid-column-end: 4;
-<<<<<<< HEAD
-
 }
-#item-1 {
 
-=======
-}
 #item-1 {
     position: relative;
->>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 1;
     grid-column-start: 4;
@@ -929,11 +915,7 @@ button {
 
 }
 #item-2 {
-<<<<<<< HEAD
-
-=======
     position: relative;
->>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 2;
     grid-column-start: 2;
@@ -941,14 +923,10 @@ button {
     grid-row-end: 3;
     grid-column-end: 4;
     border-bottom-color: #ffc107;
-
 }
-#item-3 {
-<<<<<<< HEAD
 
-=======
+#item-3 {
     position: relative;
->>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 2;
     grid-column-start: 4;
@@ -958,12 +936,9 @@ button {
     border-color: #ffc107;
 
 }
-#item-4 {
-<<<<<<< HEAD
 
-=======
+#item-4 {
     position: relative;
->>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 3;
     grid-column-start: 2;
@@ -974,11 +949,7 @@ button {
 
 }
 #item-5 {
-<<<<<<< HEAD
-
-=======
     position: relative;
->>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 3;
     grid-column-start: 4;
@@ -989,11 +960,7 @@ button {
 
 }
 #item-6 {
-<<<<<<< HEAD
-
-=======
     position: relative;
->>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 4;
     grid-column-start: 2;
@@ -1004,11 +971,7 @@ button {
 
 }
 #item-7 {
-<<<<<<< HEAD
-
-=======
     position: relative;
->>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 4;
     grid-column-start: 4;
@@ -1019,11 +982,7 @@ button {
 
 }
 #item-8 {
-<<<<<<< HEAD
-
-=======
     position: relative;
->>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 5;
     grid-column-start: 2;
@@ -1034,11 +993,7 @@ button {
 
 }
 #item-9 {
-<<<<<<< HEAD
-
-=======
     position: relative;
->>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 5;
     grid-column-start: 4;
@@ -1049,11 +1004,7 @@ button {
 
 }
 #item-10 {
-<<<<<<< HEAD
-
-=======
     position: relative;
->>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 6;
     grid-column-start: 2;
@@ -1064,11 +1015,7 @@ button {
 
 }
 #item-11 {
-<<<<<<< HEAD
-
-=======
     position: relative;
->>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 6;
     grid-column-start: 4;
@@ -1079,11 +1026,7 @@ button {
 
 }
 #item-12 {
-<<<<<<< HEAD
-
-=======
     position: relative;
->>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
     background-color: white;
     grid-row-start: 7;
     grid-column-start: 3;
