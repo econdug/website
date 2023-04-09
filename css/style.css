@@ -168,11 +168,7 @@ header a:hover{
 }
 
 .active, .collapsible:hover {
-<<<<<<< HEAD
-    background-color: gray;
-=======
     color: #8a0804 !important;
->>>>>>> 01a0e6027d6fbdc88ae021c4c8dc41f06259d1b0
 }
 
 .content {
@@ -517,14 +513,19 @@ button {
         min-height: 850px;
     }
 
+    .alumni-member {
+        width: 200px !important;
+        margin-bottom: 10px;
+    }
     .eb-flexbox{
         display: flex;
         flex-flow: column wrap !important;
         align-items: center !important;
         flex-wrap: wrap;
-    
+
         margin:auto;
         padding: 0;
+        width: 90%;
     }
 
     .event{
@@ -613,7 +614,23 @@ button {
     div.mobile-col {
         display: block;
     }
-    
+
+    div.angry-grid {
+        display: contents;
+        justify-content: center;
+    }
+
+    #item-0, #item-1, #item-2, #item-3, #item-4, #item-5, #item-6, #item-7, #item-8,
+    #item-9, #item-10, #item-11, #item-12 {
+        border: 30px solid #fbedde !important;
+        margin-bottom: 20px;
+        position: relative;
+        background-color: white;
+    }
+
+    .eb-bio {
+        display: None;
+    }
 }
 
 /* Tablet (Portrait) ----------- */
@@ -699,6 +716,23 @@ button {
         font-size: 15px;
         color: #f1a22a;
     }
+
+    div.angry-grid {
+        display: contents;
+        justify-content: center;
+    }
+
+    #item-0, #item-1, #item-2, #item-3, #item-4, #item-5, #item-6, #item-7, #item-8,
+    #item-9, #item-10, #item-11, #item-12 {
+        border: 60px solid #fbedde !important;
+        position: relative;
+        background-color: white;
+    }
+
+    .eb-bio {
+        font-size: 18px !important;
+    }
+
 }
 
 .in_button {
