@@ -38,10 +38,10 @@ h1{
 }
 
 .white-box{
-    background-color: white; 
-    border-color: #ffc107; 
-    border-style: none none solid none; 
-    border-width: 4px; 
+    background-color: white;
+    border-color: #ffc107;
+    border-style: none none solid none;
+    border-width: 4px;
     padding: 15px 10px 30px 10px;
     /* margin-top: 30px; */
 }
@@ -79,7 +79,7 @@ ul {
 
 /* header - affects everything including my name and the list */
 header{
-   background-color:#fbedde;
+    background-color:#fbedde;
     color:#232122;
     /* amount of space the header holds */
     padding-top:0;
@@ -101,8 +101,8 @@ header li {
     /* get rid of dots next to the list items */
     display:flex;
     /* padding order: north east south west - affects the distance of the list */
-   padding: 0 15px 0 0;
-   width: auto;
+    padding: 0 15px 0 0;
+    width: auto;
 }
 
 /* use hashtag for ids - set id for my name and move to left */
@@ -136,8 +136,8 @@ header a:hover{
     opacity: 0.7;
     filter:alpha(opacity=70);
     text-decoration: underline;
- /*   color: #373D3F;
-    font-weight:bold; */
+    /*   color: #373D3F;
+       font-weight:bold; */
 }
 
 
@@ -188,15 +188,15 @@ header a:hover{
     color: black;
     padding: 10rem;
     height: 4rem;
-  }
+}
 
-  .image {
+.image {
     display: block;
     width: 100%;
     height: auto;
-  }
+}
 
-  .overlay {
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -214,18 +214,18 @@ header a:hover{
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 
-  }
+}
 
-  .contain:hover .overlay {
+.contain:hover .overlay {
     opacity: 1;
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  }
+}
 
-  .text {
+.text {
     color:#232323;
     font-size: 20px;
     position: absolute;
@@ -234,52 +234,52 @@ header a:hover{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
 
-  .preview_1 {
-      display:flex;
-      flex-flow: row wrap;
-      margin-left: 8%;
-      margin-right: 8%;
-      justify-content: center;
-      }
+.preview_1 {
+    display:flex;
+    flex-flow: row wrap;
+    margin-left: 8%;
+    margin-right: 8%;
+    justify-content: center;
+}
 
-  .grid_container {
+.grid_container {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-     
-  }
 
-  #mc_embed_signup {
+}
+
+#mc_embed_signup {
     margin-top: 100px;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
-  }
+}
 
-  #mce-EMAIL {
-      font-size: 20px;
-      margin-top: 10px;
-      border-radius: 4px;
-      text-align: center;
-      
-  }
+#mce-EMAIL {
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    text-align: center;
 
- #mc-embedded-subscribe{
-     font-size: 20px;
-     font: Arial;
-     margin-top: 10px;
-     padding: 10px 30px;
-     display: inline-block;
-     background-color: #f1a22a;
-     color: white;
-     border-radius: 2px;
-     border: none;
-     align-items: center;
- }
+}
+
+#mc-embedded-subscribe{
+    font-size: 20px;
+    font: Arial;
+    margin-top: 10px;
+    padding: 10px 30px;
+    display: inline-block;
+    background-color: #f1a22a;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    align-items: center;
+}
 #description{
     padding-left: 30%;
     padding-right: 30%;
@@ -287,7 +287,7 @@ header a:hover{
     font-weight: 1;
     color: rgb(161, 23, 23);
 }
- /* Resources Page */
+/* Resources Page */
 
 #intro_for_resources img {
     width: 100%;
@@ -322,7 +322,7 @@ header a:hover{
 }
 
 .preview_2 img {
-   transition: opacity .3s ease-in-out, transform .6s ease-in-out;
+    transition: opacity .3s ease-in-out, transform .6s ease-in-out;
 }
 
 
@@ -348,13 +348,13 @@ header a:hover{
 } */
 
 #listserv img {
-display: block;
- width: 50%;
- height: 50%;
- margin-left: auto;
- margin-right: auto;
- margin-top: 30px;
- transition: opacity 0.4s ease-in-out;
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    transition: opacity 0.4s ease-in-out;
 }
 
 #listserv img:hover {
@@ -419,7 +419,7 @@ display: block;
 .home-img img {
     height: 100%;
     width: 100%;
- }
+}
 
 .description_page {
     padding-left: 80px;
@@ -543,12 +543,12 @@ button {
         align-items: center !important;
         flex-wrap: wrap;
         justify-content: center;
-    
+
         margin:auto;
         padding: 0 60px;
         width: 100%;
     }
-    
+
     .resource_item{
         margin: 2%;
         display: block;
@@ -565,12 +565,12 @@ button {
         padding: 20px 20px 20px 20px;
         width: 100%;
     }
-    
+
     .home-img img {
         height: 100%;
         width: 100%;
     }
-     
+
     .preview_1 {
         display:flex;
         flex-flow: row wrap;
@@ -669,19 +669,19 @@ button {
     .home-img{
         padding: 10px 10px 10px 10px;
     }
-    
+
     .home-img img {
         height: 100%;
         width: 100%;
-     }
+    }
 
-     .preview_1 {
+    .preview_1 {
         display:flex;
         flex-flow: row wrap;
         margin-left: 3%;
         margin-right: 3%;
         justify-content: center;
-        }
+    }
 
     .eb-member{
         margin: 2%;
@@ -909,13 +909,13 @@ button {
 
 /* Experiment : Grid */
 .angry-grid {
-     display: grid;
+    display: grid;
 
-     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
-     gap: 70px;
-     height: 100%;
+    gap: 70px;
+    height: 100%;
 }
 
 .sticky-yellow-bar {
@@ -1167,8 +1167,8 @@ div.left_image img {
 #about_me img {
     width: 450px;
     max-width: 100%;
-     margin-right: auto;
-     margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
     display:inline-block;
     text-align:center;
 }
