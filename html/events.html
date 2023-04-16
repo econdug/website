@@ -93,8 +93,8 @@
             <div class="container" style="text-align: center; margin-top: 15px">
                 <label for="cars">Choose a year:</label>
 
-                <select name="cars" id="cars">
-                    <option value="all">All</option>
+                <select name="cars" id="cars" onchange="test(this);">
+                    <option selected="selected" value="all">All</option>
                     <option value="2023">2023</option>
                     <option value="2022">2022</option>
                     <option value="2021">2021</option>
@@ -530,9 +530,13 @@
         animals.forEach(animal => animal.style.display = "block");
     }
 
-    // function value_return() {
-    //     docu
-    // }
+    window.test = function(e) {
+        if (e.value === 'all') {
+            all_return();
+        } else {
+            filterYear(e.value)
+        }
+    }
 
     var coll = document.getElementsByClassName("collapsible");
     var i;
