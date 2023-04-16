@@ -38,7 +38,7 @@ h1 {
     max-width: 100% !important;
 }
 
-.white-box{
+.white-box {
     background-color: white;
     border-color: #ffc107;
     border-style: none none solid none;
@@ -158,7 +158,7 @@ header a:hover {
     background-color: lightgray;
     color: black;
     cursor: pointer;
-    padding: 18px;
+    padding: 15px;
     width: 100%;
     border: none;
     outline: none;
@@ -857,7 +857,7 @@ button {
 
 .eb-bio {
     text-align: center;
-    font-size: 75%;
+    font-size: 85%;
     margin-left: 3%;
     margin-right: 3%;
     color: #000000;
@@ -1070,6 +1070,7 @@ button {
 }
 
 .event-description {
+    font-size: 85%;
     text-align: center;
     color: #000000;
     max-height: 0;
