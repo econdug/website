@@ -460,10 +460,27 @@ button {
     color: #f1a22a;
 }
 
+.bio-collapsible {
+    display: none;
+    background-color: ghostwhite;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    text-align: center;
+}
+
 /* about us style */
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 600px) {
-    
+
+    .bio-collapsible {
+        display : block;
+    }
+
     .navbar-toggler {
         width: 60px;
     }
@@ -502,6 +519,12 @@ button {
         margin-bottom: 10px;
     }
 
+    .header-preview {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+
     .eb-flexbox {
         display: flex;
         flex-flow: column wrap !important;
@@ -513,13 +536,19 @@ button {
         width: 90%;
     }
 
+    .eb-bio {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+
     .event {
         margin: 2%;
         display: block;
         justify-content: center;
         align-items: center;
         width: 90% !important;
-        padding: 40px;
+        padding: 0 0 40px 40px;
     }
 
     .event-flexbox {
@@ -611,10 +640,6 @@ button {
         margin-bottom: 20px;
         position: relative;
         background-color: white;
-    }
-
-    .eb-bio {
-        display: None;
     }
 }
 
@@ -756,7 +781,12 @@ button {
     padding: 0;
 }
 
-.hidden {
+.header-preview {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.hidden .hidden-2{
     display: none;
 }
 
