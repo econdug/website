@@ -265,7 +265,7 @@ header a:hover {
     text-align: center;   
 }
 
-#mc-embedded-subscribe{
+#mc-embedded-subscribe {
     font-size: 20px;
     font: Arial;
     margin-top: 10px;
@@ -278,7 +278,7 @@ header a:hover {
     align-items: center;
 }
 
-#description{
+#description {
     padding-left: 30%;
     padding-right: 30%;
     font-size: 17px;
@@ -785,7 +785,7 @@ button {
     padding-right: 80px;
 }
 
-.hidden .hidden-2{
+.hidden .hidden-2 {
     display: none;
 }
 
