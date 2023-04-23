@@ -423,7 +423,7 @@ header a:hover {
 }
 
 div.event-image img {
-    width: auto;
+    width: 100%;
     height: auto;
     max-height: 200px;
     max-width: 360px;
@@ -456,6 +456,13 @@ button {
     margin: 10px;
     font-size: 25px;
     color: #f1a22a;
+}
+.header-preview-phone {
+    display: none;
+}
+
+.phone-button {
+    display: none;
 }
 
 .bio-collapsible {
@@ -518,9 +525,16 @@ button {
     }
 
     .header-preview {
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.2s ease-out;
+        display: none;
+    }
+
+    .header-preview-phone {
+        display: contents;
+    }
+
+    .phone-button {
+        display: contents;
+
     }
 
     .eb-flexbox {
@@ -657,7 +671,7 @@ button {
     }
 
     div.event-image img {
-        width: auto;
+        width: 100%;
         height: auto;
         max-height: 200px;
         max-width: 250px;
@@ -747,9 +761,8 @@ button {
 
 /* Create two unequal columns that floats next to each other */
 .column {
-    float: left;
+    float: bottom;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
 }
 
 .left {
@@ -764,7 +777,7 @@ button {
 .row:after {
     content: "";
     display: table;
-    clear: both;
+    clear: bottom;
 }
 
 .eb-flexbox {
@@ -1235,6 +1248,8 @@ div.left_image img {
     margin-top: 22px;
     font-size: 18px;
 }
+
+#more {display: none;}
 
 footer {
     background-color: #fbedde;

@@ -75,7 +75,6 @@
             <div class="white-box">
                 <div class="container">
                     <h1 style="padding: 30px 0 20px 0"> Mission Statement</h1>
-                    <button class="bio-collapsible">Read more</button>
                     <p class="header-preview">
                         For the 2022-23 academic year, the Economics DUG is seeking to foster diversity, inclusivity, and
                         connectivity. From a diversity perspective, this includes the ongoing pursuit of creating and
@@ -90,6 +89,22 @@
                         creating opportunities for students to engage in meaningful interaction with each other and the
                         Department, whether that be through socials, mentorship opportunities, and more.
                     </p>
+                    <p class="header-preview-phone">
+                        For the 2022-23 academic year, the Economics DUG is seeking to foster diversity, inclusivity, and
+                        connectivity<span id="dots">...</span><span id="more"> From a diversity perspective, this includes the ongoing pursuit of creating and
+                        sustaining an inclusive environment that empowers both DUG members and all members of the
+                        Economics community to learn about and have access to resources that facilitate personal and
+                        professional growth. Additionally, DUG members will have the support to take ownership of their
+                        respective committees and explore topics and ideas about which they are passionate, ultimately
+                        diversifying the types of events the DUG hosts. From an inclusivity perspective, this includes
+                        promoting opportunities for students to be continuously involved in and engaged with the
+                        Department of Economics--in addition to standard DUG events. Finally, it is the DUG’s priority
+                        to promote connectivity within the DUG, the student body, and the broader Providence community,
+                        creating opportunities for students to engage in meaningful interaction with each other and the
+                        Department, whether that be through socials, mentorship opportunities, and more.
+                    </span></p>
+
+                    <button class="phone-button" onclick="myFunction()" id="myBtn">Read more</button>
                 </div>
             </div>
         </div>
@@ -621,6 +636,22 @@
 </html>
 
 <script>
+    function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+        }
+    }
+
     var coll = document.getElementsByClassName("bio-collapsible");
     console.log(coll);
     var i;
