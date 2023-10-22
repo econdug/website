@@ -1,98 +1,146 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <!-- Import font -->
-    <style>
-        @import url('https://fonts.cdnfonts.com/css/circular-std');
-    </style>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Economics Department Undergraduate Group, Events Page ">
-    <meta name="keywords"
-        content="Brown University, Economics Department Undergraduate Group, College, Events Page, ECON">
-    <meta name="author" content="Thien Nguyen">
-    <title> Events | Economics DUG </title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.cdnfonts.com/css/circular-std" rel="stylesheet">
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</head>
+  <title>Event Display</title>
+  <style>
+    /* CSS for flex container */
+    .event-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
 
-<body>
-<header>
-  <div class="container">
-    <div class="nav-container">
-      <div id="branding">
-        <a href="../index.html">
-          <img src="../images/temp logo.png" style="padding: 5px" alt="HTML" class="flowLeft">
-        </a>
-      </div>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav text-right pr-3">
-            <a class="nav-item nav-link" href="../index.html">Home </a>
-            <a class="nav-item nav-link" href="./about.html">About</a>
-            <a class="nav-item nav-link active" href="#">Events<span
-                class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="./resources.html">Resources</a>
-            <a class="nav-item nav-link" href="./contact.html">Contact Us</a>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </div>
-</header>
+    /* CSS for individual event card */
+    .event-card {
+      width: 400px;
+      margin: 10px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
 
-<section id="intro_for_events">
-  <div class="container">
-    <picture>
-      <source media="(max-width:992px)" srcset="../images/events-banner.png">
-      <img src="../images/events-banner-wide.png" alt="events banner">
-    </picture>
-  </div>
-</section>
+    /* CSS for event image */
+    .event-image {
+      max-width: 100%;
+      height: auto;
+    }
 
-<section id="welcome_events">
-  <div class="container">
-    <div class="white-box">
-      <h1 style="padding: 30px 0px 20px 0px"> Economics DUG Events</h1>
-      <p style="padding-left: 80px; padding-right: 80px;">
-        The Economics DUG hosts a variety of academic and career-related events every semester. Feel free to
-        follow our <a href="https://www.instagram.com/brownecondug/" target=”_blank”> Instagram</a> and subscribe to
-        the Economics DUG <a
-          href="https://forms.gle/Jk9Uoxway6HTVBH49"
-          target=”_blank”>newsletter</a> to stay updated on upcoming opportunities!
-      </p>
-    </div>
-  </div>
-</section>
-
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
+    /* CSS for rows */
+    .event-row {
+      display: flex;
+      justify-content: space-between;
+      width: 70%;
+    }
+  </style>
 </head>
 <body>
+  <div class="event-container" id="events">
+    <!-- Events will be added here dynamically using JavaScript -->
+  </div>
 
+  <script>
+    // Sample JSON data (you can fetch this from a file or an API)
+    const eventData = [
+      {
+        imagePath: "../images/events/ECON DUG Fall Kickoff 2023.png",
+        eventName: "ECON DUG Fall kickoff",
+        date: "September 14, 2023",
+        description: "Join members of the Econ DUG and Economics Department Professors for cookies TODAY \
+                      from 4-5:30pm in Friedman Hall. Meet other economics concentrators, learn about the department's \
+                      resources and how to get involved, and get a first look at the DUG's \
+                      recruiting process and openings!"
+      },
+      {
+        imagePath: "../images/events/guest_lecture.png",
+        eventName: "Econ Department Presents: Econ Lecture Lunch Series with Professor Jesse Bruhn",
+        date: "February 23, 2023",
+        description: "The lectures (aimed specifically at undergraduate students) \
+                      will feature faculty members, guest speakers and other prominent figures in the field of \
+                      Economics. Assistant Professor Jesse Bruhn will discuss modern research related to \
+                      illegal markets and criminal organizations TODAY. This will include a short survey of \
+                      existing literature, as well as a discussion of his own work on illegal markets, \
+                      gang violence and inner-city economic development in the United States."
+      },
+      {
+        imagePath: "image3.jpg",
+        eventName: "Event 3",
+        date: "2023-09-30",
+        description: "Description for Event 3"
+      },
+      {
+        imagePath: "image4.jpg",
+        eventName: "Event 4",
+        date: "2023-10-05",
+        description: "Description for Event 4"
+      },
+      {
+        imagePath: "image5.jpg",
+        eventName: "Event 5",
+        date: "2023-10-10",
+        description: "Description for Event 5"
+      }
+    ];
+
+    // Function to create an event card
+    function createEventCard(event) {
+      const card = document.createElement("div");
+      card.classList.add("event-card");
+
+      const image = document.createElement("img");
+      image.classList.add("event-image");
+      image.src = event.imagePath;
+      card.appendChild(image);
+
+      const eventName = document.createElement("h2");
+      eventName.textContent = event.eventName;
+      card.appendChild(eventName);
+
+      const date = document.createElement("p");
+      date.textContent = `Date: ${event.date}`;
+      card.appendChild(date);
+
+      const description = document.createElement("p");
+      description.textContent = event.description;
+      card.appendChild(description);
+
+      return card;
+    }
+
+    // Function to populate events
+    function populateEvents() {
+      const eventContainer = document.getElementById("events");
+      let row;
+
+      eventData.forEach((event, index) => {
+        if (index % 2 === 0) {
+          // Create a new row for every second event
+          row = document.createElement("div");
+          row.classList.add("event-row");
+          eventContainer.appendChild(row);
+        }
+
+        const eventCard = createEventCard(event);
+        row.appendChild(eventCard);
+      });
+    }
+
+    // Call the function to populate events
+    populateEvents();
+  </script>
 </body>
 </html>
+
+<!-- <div id="welcome_events">
+  <div class="container">
+      <div class="white-box">
+          <h1 style="padding: 30px 0px 20px 0px"> Economics DUG Events</h1>
+          <p class="description_page">
+              The Economics DUG hosts a variety of academic and career-related events every semester. Feel free to
+              follow our <a href="https://www.instagram.com/brownecondug/" target=”_blank”> Instagram</a> and subscribe to
+              the Economics DUG <a
+                  href="https://forms.gle/Jk9Uoxway6HTVBH49"
+                  target=”_blank”>newsletter</a> to stay updated on upcoming opportunities!
+          </p>
+      </div>
+  </div>
+</div> -->
