@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -29,6 +30,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -91,6 +93,32 @@
                 <div class="home-img"><img src="images/home-3.png" alt="Student Panels"></div>
                 <div class="home-img"><img src="images/home-2.png" alt="Networking"></div>
             </div>
+        <div class="upcoming-text">
+            Upcoming Events
+        </div>
+        <div class="w3-content w3-display-container" style="left: 230px;">
+        <img class="mySlides" src="https://lh3.google.com/u/0/d/1y11iCJZ4iLtJADbDwmpa7QmtakjxvxdJ" style="width:60%">
+        <img class="mySlides" src="https://lh3.google.com/u/0/d/1t_rXQERh4JYvwKtbQsMe6_tw-gGzbYnf" style="width:60%">
+
+        <div style="display: flex;">
+            <button class="w3-button w3-left w3-light-grey" style="width: 294px;" onclick="plusDivs(-1)">&laquo; Previous</button>
+            <button class="w3-button w3-right w3-green" style="width: 293px;" onclick="plusDivs(1)">Next &raquo;</button>
+        </div>
+        </div>
+        </div>
+
+        <button class="open-button" onclick="openForm()"><i class="material-icons" style="font-size:24px;">chat</i></button>
+        <div class="chat-popup" id="myForm">
+        <div class="form-container">
+            <h1>Chat</h1>
+
+            <label for="msg"><b>Message</b></label>
+            <div id="chat-content"></div>
+            <input placeholder="Type message.." name="msg" id="user-input" required></input>
+
+            <button type="submit" class="btn" onclick="sendMessage()">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </div>
         </div>
         <!-- <div class="contain">
                 <img src="images/faculty_lecture/faculty_lectures.svg" alt="HTML" class="image">
@@ -152,5 +180,58 @@
         } else {
             x.style.display = "block";
         }
+    }
+
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+    showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+    }
+
+    function openForm() {
+        document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+    }
+
+    var chatContainer = document.getElementById('chat-container');
+    var chatContent = document.getElementById('chat-content');
+
+    function sendMessage() {
+        var userInput = document.getElementById('user-input').value;
+        appendMessage('User', userInput);
+        // Call a function to process the user's message and get the bot's response
+        var botResponse = getBotResponse(userInput);
+        appendMessage('Bot', botResponse);
+        // Clear the input field
+        document.getElementById('user-input').value = '';
+    }
+
+    function appendMessage(sender, message) {
+        var messageElement = document.createElement('div');
+        messageElement.innerHTML = `<strong>${sender}:</strong> ${message}`;
+        chatContent.appendChild(messageElement);
+        // Scroll to the bottom to show the latest message
+        chatContent.scrollTop = chatContent.scrollHeight;
+    }
+
+    function getBotResponse(userInput) {
+        // Implement your chatbot's logic here to generate a response based on user input
+        // For simplicity, we'll use a basic example.
+        return 'Hi! How can I help you'
     }
 </script>
