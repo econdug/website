@@ -426,8 +426,9 @@ header a:hover {
 div.event-image img {
     width: 100%;
     height: auto;
-    max-height: 600px;
-    max-width: 360px;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 200px;
     background-color: rgb(200, 41, 41);
     transition: transform .5s ease-in-out;
 }
@@ -444,7 +445,7 @@ div.right_events {
 }
 
 button {
-    width: 304px;
+    width: 254px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: #8a0804;
@@ -455,7 +456,7 @@ button {
 
 .set_button {
     margin: 10px;
-    font-size: 25px;
+    font-size: 20px;
     color: #f1a22a;
 }
 .header-preview-phone {
